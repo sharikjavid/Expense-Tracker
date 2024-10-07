@@ -1,0 +1,467 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap);
+.btn-danger,
+.dark-link,
+.edit,
+.excel-button,
+.page,
+.primary-button,
+.secondary-button,
+a {
+  transition: color 0.3s, transform 0.3s;
+}
+.button-group,
+.date-picker-container,
+.enhanced-search-bar,
+.list-group-item,
+.sort-filter-container {
+  display: flex;
+  display: flex;
+}
+.btn-danger,
+.secondary-button,
+.secondary-button:hover,
+h1,
+h2 {
+  color: var(--primary-color);
+}
+body,
+h4 {
+  line-height: 1.5;
+}
+.dark-link,
+.dark-link:hover,
+a,
+a:hover {
+  text-decoration: none;
+}
+.btn-danger:hover,
+.dark-link:hover,
+.edit:hover,
+.excel-button:hover,
+.page:hover,
+.primary-button:hover,
+a:hover {
+  transform: scale(1.05);
+}
+.card-text,
+.dark-link,
+.form-label,
+.navbar-brand,
+a,
+h1,
+h2 {
+  font-weight: 700;
+}
+:root {
+  --primary-color: #ffffff;
+  --hover-color: #000d9e;
+  --secondary-color: #6c7293;
+  --secondary-hover-color: #6c7293;
+  --background-color: #000000;
+  --input: #dadada;
+  --link: #6c7293;
+  --link-hover: #6c7293;
+  --link-dark: #6c7293;
+  --link-dark-hover: #6c7293;
+  --text-color: #333333;
+  --warning-color: #ff6b6b;
+  --warning-hover-color: #cb5353;
+  --edit-color: #93f9b8;
+  --edit-hover-color: #65af80;
+  --page-color: #ffffff;
+  --page-hover-color: #333;
+  --breadcrumb: #dadada;
+}
+body {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.main {
+  margin: 20px auto;
+  padding: 40px;
+}
+.container {
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.primary-button,
+.secondary-button {
+  padding: 12px 24px;
+}
+.grid-row {
+  margin: 20px 0;
+}
+h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+.total,
+h2 {
+  font-size: 2em;
+}
+h2 {
+  line-height: 1.3;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5,
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+h6 {
+  font-size: 0.8em;
+  line-height: 1.7;
+}
+a {
+  color: var(--link);
+}
+a:hover {
+  color: var(--link-hover);
+}
+.dark-link {
+  color: var(--link-dark);
+}
+.dark-link:hover {
+  color: var(--link-dark-hover);
+}
+.primary-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+}
+.primary-button:hover {
+  background-color: var(--hover-color);
+  color: var(--secondary-color);
+}
+.secondary-button {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+}
+.secondary-button:hover {
+  background-color: var(--secondary-hover-color);
+  border: 2px solid var(--primary-color);
+  transform: scale(1.05);
+}
+.btn-danger {
+  background-color: var(--warning-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+}
+.edit,
+.excel-button {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.btn-danger:hover,
+.page {
+  color: var(--background-color);
+}
+.edit,
+.excel-button {
+  border-radius: 20px;
+}
+.btn-danger:hover {
+  background-color: var(--warning-hover-color);
+}
+.edit {
+  background-color: var(--edit-color);
+}
+.edit:hover {
+  background-color: var(--edit-hover-color);
+}
+.excel-button,
+.excel-button:hover {
+  background-color: var(--background-color);
+}
+.excel-button:hover {
+  color: var(--hover-color);
+}
+.page {
+  background-color: var(--page-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+}
+.form-control,
+.list-group-item {
+  border-radius: 5px;
+  border-color: var(--primary-color);
+}
+.page:hover {
+  background-color: var(--page-hover-color);
+}
+.page:disabled {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-color: var(--text-color);
+  cursor: not-allowed;
+  transform: none;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-label {
+  color: gray;
+}
+.total {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+.list-group-item {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.button-group {
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
+}
+.card-title {
+  color: var(--secondary-color);
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .main {
+    margin: 10px auto;
+    padding: 20px;
+  }
+  .container {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .grid-row {
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4,
+  h5,
+  h6 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .btn-danger,
+  .edit,
+  .excel-button,
+  .page,
+  .primary-button,
+  .secondary-button {
+    padding: 10px 20px;
+    border-radius: 15px;
+  }
+  .list-group-item {
+    padding: 8px 16px;
+  }
+}
+.enhanced-search-bar {
+  width: 37% !important;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  margin-right: 20px;
+}
+.enhanced-search-bar:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.modern-search {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.modern-search:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: transparent;
+}
+.enhanced-search-icon {
+  cursor: pointer;
+  background: 0 0;
+  border: none;
+  padding: 10px;
+  color: #888;
+  transition: color 0.2s;
+}
+.enhanced-search-icon:hover,
+.filter-label:hover,
+.sort-label:hover {
+  color: #333;
+}
+.sort-container {
+  margin-left: 1rem;
+}
+.filter-container,
+.sort-select-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.filter-label,
+.sort-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+  transition: color 0.2s ease-in-out;
+}
+.filter-select:hover,
+.sort-select:hover {
+  cursor: pointer;
+  border-color: #007bff;
+}
+.search-bar-container {
+  max-width: 300px;
+}
+.sort-filter-container {
+  gap: 2rem;
+}
+.filter-select,
+.sort-select {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.filter-select:focus,
+.sort-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.date-picker-container {
+  align-items: center;
+  position: relative;
+}
+.date-picker-input {
+  padding-right: 2.5rem;
+}
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .justify-content-between {
+    justify-content: flex-start !important;
+  }
+  .search-bar {
+    width: 95% !important;
+    margin-bottom: 1rem;
+  }
+  .modern-search {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  .search-icon {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .sort-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+  .filter-container,
+  .sort-select-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .filter-label,
+  .sort-label {
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+  }
+  .filter-select,
+  .sort-select {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+  .py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .ml-auto {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+}
+.material-modal {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+.modal-header-custom {
+  border-bottom: none;
+  font-size: 1.25rem;
+}
+.modal-body-custom {
+  padding: 1.5rem;
+}
+.form-control-custom {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s;
+}
+.form-control-custom:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.date-picker-container {
+  width: fit-content;
+  align-items: center;
+}
+.calendar-icon {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar {
+  padding: 1rem 0;
+}
